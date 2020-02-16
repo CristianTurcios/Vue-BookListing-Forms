@@ -1,7 +1,10 @@
 <template>
   <li>
-    {{book.title}} : {{book.author}}
+    {{book.title}} : {{book.author}} : {{book.ownership}}
+    <span v-if="book.finishedReading">- Read</span>
+    <span v-else="book.finishedReading">- Not Read</span>
   </li>
+  
 </template>
 
 <script>
