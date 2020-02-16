@@ -24,7 +24,7 @@ export default {
         {
           title: "Self-Reliance",
           author: "Ralph Waldo Emerson",
-          finishedReading: false,
+          finishedReading: true,
           ownership: []
         },
         {
@@ -36,7 +36,7 @@ export default {
         {
           title: "Amusing Ourselves to Death",
           author: "Neil Postman",
-          finishedReading: false,
+          finishedReading: true,
           ownership: []
         }
       ]
